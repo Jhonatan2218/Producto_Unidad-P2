@@ -11,7 +11,7 @@ El lenguaje de programación Python tiene muchas ventajas para enseñar el prime
 #### Objetivos General
 Implementar una interfaz HMI para un prototipo electrónico de en la plataforma de Node red
 
-Desarrollar una aplicación de una calculadora científica utilizando el lenguaje de programación Python y seleccione las operaciones matemáticas por medio de la lectura de los puertos virtuales de una Raspberry PI.
+Desarrollar una aplicación de una calculadora científica utilizando el lenguaje de programación Python y empleando los conceptos de programación orientada a objetos,que seleccione las operaciones matemáticas por medio de la lectura de los puertos virtuales de una Raspberry PI.
 
 
 #### Objetivos Específicos 
@@ -75,4 +75,5 @@ El monitoreo remoto permite una mayor flexibilidad y accesibilidad tanto para lo
 
 
 ### 12. ANEXOS
+
 #### 12.1. Manual de Usuario

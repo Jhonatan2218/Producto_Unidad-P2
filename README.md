@@ -43,24 +43,10 @@ La Raspberry Pi es una computadora en una sola tarjeta (Board Computer) creada p
 Al utilizar Python en la Raspberry Pi tenemos la ventaja de poder utiliza los pines GPIO para conectar el mundo digital con el mundo físico mediante la electrónica y programación.
 
 ### GPIO.
+General Purpose Input Output (GPIO) es un sistema de entrada/salidade propósito general que cuenta con interruptores que permiten activar o desactivar los 40 pines, de los cuales,los primeros 26 son GPIO, mientras que el resto son eléctricos y de tierra.Estos pines están incluidos en todos los modelos de Raspberry Pi aunque con diferencias. GPIO mientras que a partir de la versión 2 de Raspberry Pi el número de pines aumentó a 40. Sin embargo, la compatibilidad es total, puesto que los 26 primeros pines mantienen su función original. Los pines GPIO tienen funciones específicas (aunque algunos comparten funciones) y se pueden agrupar de la siguiente manera.
+Los GPIO representan la interfaz entre la Raspberry Pi y el mundo exterior. Y con ellos podrás hacer multitud de proyectos, desde encender un LED hasta otros mucho más sofisticados. Pero para eso debes saber sus características y como se programan. Lo primero variará en función de la revisión de placa que tengas o del modelo.
 
-General Purpose Input Output (GPIO) es un sistema de entrada y salida de propósito general, es decir, consta de una serie de pines o conexiones que se pueden usar como entradas o salidas para múltiples usos. Estos pines están incluidos en todos los modelos de Raspberry Pi aunque con diferencias. GPIO mientras que a partir de la versión 2 de Raspberry Pi el número de pines aumentó a 40. Sin embargo, la compatibilidad es total, puesto que los 26 primeros pines mantienen su función original. Los pines GPIO tienen funciones específicas (aunque algunos comparten funciones) y se pueden agrupar de la siguiente manera.
 
-Amarillo (2): Alimentación a 3.3V.
-
-Rojo (2): Alimentación a 5V.
-
-Naranja (26): Entradas / salidas de proposito general. Pueden configurarse como entradas o salidas. Ten presente que el nivel alto es de 3.3V y no son tolerantes a tensiones de 5V.
-
-Gris (2): Reservados.
-
-Negro (8): Conexión a GND o masa.
-
-Azul (2): Comunicación mediante el protocolo I2C para comunicarse con periféricos que siguen este protocolo.
-
-Verde (2): Destinados a conexión para UART para puerto serie convencional.
-
-Morado (5): Comunicación mediante el protocolo SPI para comunicarse con periféricos que siguen este protocolo
 
 ### HMI.
 

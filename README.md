@@ -27,7 +27,7 @@ Comprender, seleccionar y aplicar los conceptos fundamentales aprendidos en el l
 ### Node-RED.
 
 También proporciona un navegador basado editor de flujo, nos permite interconectar dispositivos de hardware distintos y servicios en línea a través de una interfaz sencilla mediante soluciones software. Michael Blackstock y Rodger Lea en su artículo llamado “Hacia una plataforma de flujo de datos distribuidos para la web de Cosas (nodo distribuido-RED)” en el año 2014, nos menciona que muchos escenarios comunes de IoT en áreas como el hogar y la industria, automatización, inteligencia empresarial en tiempo real y espacios interactivos requieren integración con servicios en línea y (casi) en tiempo real detección y actuación. Si bien es posible crear en tiempo real aplicaciones interactivas de IoT que usan herramientas de programación tradicionales, puede ser difícil, requerir que los desarrolladores aprendan nuevos protocolos. [4]
-Es una herramienta de programación visual, que permite conectar dispositivos de hardware, API y servicios en línea de manera distinta. Proporciona un editor de flujo basado en un navegador web, facilitando la conexión de flujos, mediante la utilización de los distintos nodos en la paleta.
+Es una herramienta de programación visual, que permite conectar dispositivos de hardware, servicios en línea de manera distinta. Proporciona un editor de flujo basado en un navegador web, facilitando la conexión de flujos, mediante la utilización de los distintos nodos en la paleta.
 
 ### Python
 

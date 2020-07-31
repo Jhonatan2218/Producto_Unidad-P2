@@ -45,13 +45,21 @@ Al utilizar Python en la Raspberry Pi tenemos la ventaja de poder utiliza los pi
 ### GPIO.
 
 General Purpose Input Output (GPIO) es un sistema de entrada y salida de propósito general, es decir, consta de una serie de pines o conexiones que se pueden usar como entradas o salidas para múltiples usos. Estos pines están incluidos en todos los modelos de Raspberry Pi aunque con diferencias. GPIO mientras que a partir de la versión 2 de Raspberry Pi el número de pines aumentó a 40. Sin embargo, la compatibilidad es total, puesto que los 26 primeros pines mantienen su función original. Los pines GPIO tienen funciones específicas (aunque algunos comparten funciones) y se pueden agrupar de la siguiente manera.
+
 Amarillo (2): Alimentación a 3.3V.
+
 Rojo (2): Alimentación a 5V.
+
 Naranja (26): Entradas / salidas de proposito general. Pueden configurarse como entradas o salidas. Ten presente que el nivel alto es de 3.3V y no son tolerantes a tensiones de 5V.
+
 Gris (2): Reservados.
+
 Negro (8): Conexión a GND o masa.
+
 Azul (2): Comunicación mediante el protocolo I2C para comunicarse con periféricos que siguen este protocolo.
+
 Verde (2): Destinados a conexión para UART para puerto serie convencional.
+
 Morado (5): Comunicación mediante el protocolo SPI para comunicarse con periféricos que siguen este protocolo
 
 ### HMI.

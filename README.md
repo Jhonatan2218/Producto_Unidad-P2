@@ -114,10 +114,13 @@ Dropdown :Un widget de selección desplegable,agrega un cuadro de varias opcione
 Los nodos Botton los utilizamos para mostrar en la interfaz de usuario cada uno de ellos, para poder identificarlos en la parte de la etiqueta le colocamos el nombre con el cual queremos que se muestre en la interfaz final.
 
 El nodo slider es un control deslizable manipulable por el usuario, el rango lo podemos modificar a nuestras necesidades, para poder ver de una manera mas visual el comportamiento del mismo, añadimos el nodo Gauge que es un indicador visual, los conectamos para que nos muestre la salida del nodo slider, el nodo numérico  nos ayudara también a modificar el valor de gauge solo que en vez de utilizar el slider ocuparemos flechas para subir o bajar, dependiendo de este número el nodo Text de salida lo verá reflejado e imprimirá cada número seleccionado.
+
 Para agregar un interruptor a la interfaz del usuario ocuparemos el nodo  swich este nos devolverá dos estados, el nodo dropdown lo ocuparemos para desplegar un cuadro de opciones a la interfaz del usuario.
 El nodo dropdown no esta conectado a otro nodo al igual que el nodo swich, ya que al pertenece al nodo Home Firts se imprimirán en la columna correspondiente. 
 
+![](Imagenes/HOmeFIrst.png)
 
+![](Imagenes/HomeF.png)
 ### 8. CONCLUSIONES
 
 

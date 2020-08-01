@@ -63,6 +63,8 @@ El monitoreo remoto permite una mayor flexibilidad y accesibilidad tanto para lo
 
 ### 7.1 Interfaz grafica HMI NODE-RED
 
+El siguiente ejemplo consiste en elaborar una interfaz Grafica HMI en la plataforma FRED.
+
 
 
 ### 8. CONCLUSIONES

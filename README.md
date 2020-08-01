@@ -148,6 +148,7 @@ EL nodo button para que al momento de presionarlo salga un mensaje programado, p
 Seguido de esto uniremos al nodo slider con los demás nodos, para que este pueda controlar la acciones de los otros. El nodo gauge es un indicador del tablero de modo grafico en el configuremos en rango que será de 0 a 200, del mismo modo el nodo chart nos devolverá una grafica de tipo barra con el mismo rango ya definido. El nodo Dropdown nos desplegara un cuadro con tres opciones diferentes programables, y el nodo Colour picker nos ayudara a seleccionar un color para nuestro widget.Todos estos nodos están enlazados al nodo principal slider que es un deslizador controlado por el usuario. 
 
 Por ultimo utilizaremos el nodo debug para controlar la ejecucion del programa.
+
 ![](Imagenes/HomeSECOND.png)
 ![](Imagenes/Home.Sec.png)
 ### 8. CONCLUSIONES

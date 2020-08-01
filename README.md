@@ -170,7 +170,11 @@ Para esta ultima interfaz ocuparemos el grupo Home third para que esta se ubique
 Ocuparemos solo dos nodos el Slider y chart, el nodo slider tiene un control deslizante horizontal simple, esta nos servirá para controlar los nodos chart que están conectados a la slider principal. Los tres nodos chart hacen lo mismo, representan la información trasmitida por la slider en forma visual, cada uno de ellos de diferente manera y en un rango igual al del slider que es de 0 min a 200 max.
 
 ![](Imagenes/HomeThird.png).
-![](Imagenes/HomeThi.png).
+Imagenes/Resultado.pngImagenes/HomeThi.png).
+
+### Resultados
+
+![](Imagenes/Resultado.png).
 
 ### 8. CONCLUSIONES
 

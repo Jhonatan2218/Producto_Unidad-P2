@@ -61,6 +61,9 @@ El monitoreo remoto permite una mayor flexibilidad y accesibilidad tanto para lo
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 
+### 7.1 Interfaz grafica HMI NODE-RED
+
+
 
 ### 8. CONCLUSIONES
 

@@ -55,6 +55,7 @@ El monitoreo remoto permite una mayor flexibilidad y accesibilidad tanto para lo
 
 ### 5. DIAGRAMAS
 
+![](Imagenes/FRED-Front-End-for-Node-RED%20(1).png).
 
 ### 6. MAPA DE VARIABLES
 

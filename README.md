@@ -88,6 +88,11 @@ Colour picker : Selector de color para un widget.
 
 Debug :El nodo de depuración se puede usar para mostrar mensajes en la barra lateral de depuración dentro del editor.
 
+### Desarrollo de la interfaz HMI
+Primero debemos tener en cuenta la creación de un grupo, para la interfaz principal, en este caso vamos a nombre Home y para que la interfaz elaborada se construya en una solo columna, dividimos este mismo grupo en tres enlazados con el principal.
+Home First: para la interfaz a la izquierda   Home Second: para la interfaz en medio.    Home Third: para la interfaz a la derecha.
+
+![](Imagenes/Group.jpeg)
 
 ### 8. CONCLUSIONES
 

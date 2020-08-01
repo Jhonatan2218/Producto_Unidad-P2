@@ -111,6 +111,8 @@ Switch: El nodo Switch permite enrutar los mensajes a diferentes ramas de un flu
 
 Dropdown :Un widget de selección desplegable,agrega un cuadro de varias opciones a la interfaz del usuario.
 
+### Explicación.
+
 Los nodos Botton los utilizamos para mostrar en la interfaz de usuario cada uno de ellos, para poder identificarlos en la parte de la etiqueta le colocamos el nombre con el cual queremos que se muestre en la interfaz final.
 
 El nodo slider es un control deslizable manipulable por el usuario, el rango lo podemos modificar a nuestras necesidades, para poder ver de una manera mas visual el comportamiento del mismo, añadimos el nodo Gauge que es un indicador visual, los conectamos para que nos muestre la salida del nodo slider, el nodo numérico  nos ayudara también a modificar el valor de gauge solo que en vez de utilizar el slider ocuparemos flechas para subir o bajar, dependiendo de este número el nodo Text de salida lo verá reflejado e imprimirá cada número seleccionado.
@@ -141,6 +143,8 @@ Colour picker : Selector de color para un widget.
 
 Gauge :Este nodo es un tipo de indicador en el tablero,tiene 4 modos: estándar (indicador simple), donut (360 ° completo), brújula y onda.
 
+### Explicación 
+
 Para esta interfaz ocuparemos el grupo Home Second porque necesitamos que esta interfaz se coloque al lado derecho de la interfaz First
 
 EL nodo button para que al momento de presionarlo salga un mensaje programado, para hacer esto debemos unir el nodo botón que es en donde configuraremos el mensaje con el nodo Text que es una salida de texto que sirve para mostrar un campo de texto en la interfaz.
@@ -150,8 +154,23 @@ Seguido de esto uniremos al nodo slider con los demás nodos, para que este pued
 Por ultimo utilizaremos el nodo debug para controlar la ejecucion del programa.
 
 ![](Imagenes/HomeSECOND.png).
-![](Imagenes/Home.Sec.png).      
+![](Imagenes/Home.Sec.png).
 
+### Home Third
+
+### Nodos Utilizados.
+
+Slider :Un control deslizante horizontal simple, con un tamaño de paso variable.
+
+Chart : Tiene modos de línea, barra y gráfico circular,podemos configurar el rango que nesesitamos.
+
+### Explicación 
+Para esta ultima interfaz ocuparemos el grupo Home third para que esta se ubique en una nueva columna así tendremos todas las interfaces en una distribución requerida.
+
+Ocuparemos solo dos nodos el Slider y chart, el nodo slider tiene un control deslizante horizontal simple, esta nos servirá para controlar los nodos chart que están conectados a la slider principal. Los tres nodos chart hacen lo mismo, representan la información trasmitida por la slider en forma visual, cada uno de ellos de diferente manera y en un rango igual al del slider que es de 0 min a 200 max.
+
+![](Imagenes/HomeThird.png).
+![](Imagenes/HomeThi.png).
 
 ### 8. CONCLUSIONES
 

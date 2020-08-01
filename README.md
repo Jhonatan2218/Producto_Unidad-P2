@@ -68,7 +68,7 @@ El siguiente ejemplo consiste en elaborar una interfaz Grafica HMI en la platafo
 
 ### Nodos Utilizados
 
-Button:Agrega un botón a la interfaz del usuario el ícono se puede configurar usando los íconos Material,también se puede configurar el color y el color de fondo.
+Button: Agrega un botón a la interfaz del usuario el ícono se puede configurar usando los íconos Material,también se puede configurar el color y el color de fondo.
 
 Slider:Un control deslizante horizontal simple, con un tamaño de paso variable.
 

@@ -149,9 +149,8 @@ Seguido de esto uniremos al nodo slider con los demás nodos, para que este pued
 
 Por ultimo utilizaremos el nodo debug para controlar la ejecucion del programa.
 
-![](Imagenes/HomeSECOND.png)
-
-![](Imagenes/Home.Sec.png)      
+![](Imagenes/HomeSECOND.png).
+![](Imagenes/Home.Sec.png).      
 
 
 ### 8. CONCLUSIONES

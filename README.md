@@ -66,34 +66,12 @@ El monitoreo remoto permite una mayor flexibilidad y accesibilidad tanto para lo
 
 El siguiente ejemplo consiste en elaborar una interfaz Grafica HMI en la plataforma FRED.
 
-### Nodos Utilizados
-
-Button : Agrega un botón a la interfaz del usuario el ícono se puede configurar usando los íconos Material,también se puede configurar el color y el color de fondo.
-
-Slider :Un control deslizante horizontal simple, con un tamaño de paso variable.
-
-Numeric :Un widget de entrada numérico con botones arriba / abajo.
-
-Text :Text es una salida de texto que sirve para mostrar un campo de texto no editable en la interfaz.
-
-Switch: El nodo Switch permite enrutar los mensajes a diferentes ramas de un flujo mediante la evaluación de un conjunto de reglas para cada mensaje.
-
-Dropdown :Un widget de selección desplegable,agrega un cuadro de varias opciones a la interfaz del usuario.
-
-Chart : Tiene modos de línea, barra y gráfico circular,podemos configurar el rango que nesesitamos.
-
-Gauge :Este nodo es un tipo de indicador en el tablero,tiene 4 modos: estándar (indicador simple), donut (360 ° completo), brújula y onda.
-
-Colour picker : Selector de color para un widget.
-
-Debug :El nodo de depuración se puede usar para mostrar mensajes en la barra lateral de depuración dentro del editor.
-
-### Desarrollo de la interfaz HMI
+### 7.1.1 Desarrollo de la interfaz HMI
 Primero debemos tener en cuenta la creación de un grupo, para la interfaz principal, en este caso vamos a nombre Home y para que la interfaz elaborada se construya en una solo columna, dividimos este mismo grupo en tres enlazados con el principal.
 Home First: para la interfaz a la izquierda   Home Second: para la interfaz en medio.    Home Third: para la interfaz a la derecha.
 
 ![](Imagenes/Group.jpeg)
-### Home First
+### 7.1.2 Home First
 
 ### Nodos Utilizados
 
@@ -123,7 +101,7 @@ El nodo dropdown no esta conectado a otro nodo al igual que el nodo swich, ya qu
 ![](Imagenes/HOmeFIrst.png)
 ![](Imagenes/HomeF.png)
 
-### Home Second
+### 7.1.3 Home Second
 
 ### Nodos Utilizados
 
@@ -156,7 +134,7 @@ Por ultimo utilizaremos el nodo debug para controlar la ejecucion del programa.
 ![](Imagenes/HomeSECOND.png).
 ![](Imagenes/Home.Sec.png).
 
-### Home Third
+### 7.1.4 Home Third
 
 ### Nodos Utilizados.
 
@@ -164,13 +142,13 @@ Slider :Un control deslizante horizontal simple, con un tamaño de paso variable
 
 Chart : Tiene modos de línea, barra y gráfico circular,podemos configurar el rango que nesesitamos.
 
-### Explicación 
+### 7.2 Explicación 
 Para esta ultima interfaz ocuparemos el grupo Home third para que esta se ubique en una nueva columna así tendremos todas las interfaces en una distribución requerida.
 
 Ocuparemos solo dos nodos el Slider y chart, el nodo slider tiene un control deslizante horizontal simple, esta nos servirá para controlar los nodos chart que están conectados a la slider principal. Los tres nodos chart hacen lo mismo, representan la información trasmitida por la slider en forma visual, cada uno de ellos de diferente manera y en un rango igual al del slider que es de 0 min a 200 max.
 
 ![](Imagenes/HomeThird.png).
-Imagenes/Resultado.pngImagenes/HomeThi.png).
+![](Imagenes/HomeThi.png).
 
 ### Resultados
 

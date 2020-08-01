@@ -69,15 +69,25 @@ El siguiente ejemplo consiste en elaborar una interfaz Grafica HMI en la platafo
 ### Nodos Utilizados
 
 Button:Agrega un botón a la interfaz del usuario el ícono se puede configurar usando los íconos Material,también se puede configurar el color y el color de fondo.
+
 Slider:Un control deslizante horizontal simple, con un tamaño de paso variable.
+
 Numeric:Un widget de entrada numérico con botones arriba / abajo.
-Text:Text es una salida de texto que sirve para mostrar un campo de texto no editable en la interfaz
-Switch: El nodo Switch permite enrutar los mensajes a diferentes ramas de un flujo mediante la evaluación de un conjunto de reglas para cada mensaje
+
+Text:Text es una salida de texto que sirve para mostrar un campo de texto no editable en la interfaz.
+
+Switch: El nodo Switch permite enrutar los mensajes a diferentes ramas de un flujo mediante la evaluación de un conjunto de reglas para cada mensaje.
+
 Dropdown:Un widget de selección desplegable,agrega un cuadro de varias opciones a la interfaz del usuario.
+
 Chart: Tiene modos de línea, barra y gráfico circular,podemos configurar el rango que nesesitamos.
-Gauge:Este nodo es un tipo de indicador en el tablero,tiene 4 modos: estándar (indicador simple), donut (360 ° completo), brújula y onda
+
+Gauge:Este nodo es un tipo de indicador en el tablero,tiene 4 modos: estándar (indicador simple), donut (360 ° completo), brújula y onda.
+
 Colour picker: Selector de color para un widget.
+
 Debug:El nodo de depuración se puede usar para mostrar mensajes en la barra lateral de depuración dentro del editor.
+
 
 ### 8. CONCLUSIONES
 

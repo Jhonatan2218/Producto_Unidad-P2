@@ -119,8 +119,8 @@ Para agregar un interruptor a la interfaz del usuario ocuparemos el nodo  swich 
 El nodo dropdown no esta conectado a otro nodo al igual que el nodo swich, ya que al pertenece al nodo Home Firts se imprimirán en la columna correspondiente. 
 
 ![](Imagenes/HOmeFIrst.png)
-
 ![](Imagenes/HomeF.png)
+
 ### 8. CONCLUSIONES
 
 

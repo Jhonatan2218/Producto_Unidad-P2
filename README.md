@@ -121,6 +121,35 @@ El nodo dropdown no esta conectado a otro nodo al igual que el nodo swich, ya qu
 ![](Imagenes/HOmeFIrst.png)
 ![](Imagenes/HomeF.png)
 
+### Home Second
+
+### Nodos Utilizados
+
+Button : Agrega un botón a la interfaz del usuario el ícono se puede configurar usando los íconos Material,también se puede configurar el color y el color de fondo.
+
+Debug :El nodo de depuración se puede usar para mostrar mensajes en la barra lateral de depuración dentro del editor.
+
+Text :Text es una salida de texto que sirve para mostrar un campo de texto no editable en la interfaz.
+
+Slider :Un control deslizante horizontal simple, con un tamaño de paso variable.
+
+Dropdown :Un widget de selección desplegable,agrega un cuadro de varias opciones a la interfaz del usuario.
+
+Chart : Tiene modos de línea, barra y gráfico circular,podemos configurar el rango que nesesitamos.
+
+Colour picker : Selector de color para un widget.
+
+Gauge :Este nodo es un tipo de indicador en el tablero,tiene 4 modos: estándar (indicador simple), donut (360 ° completo), brújula y onda.
+
+Para esta interfaz ocuparemos el grupo Home Second porque necesitamos que esta interfaz se coloque al lado derecho de la interfaz First
+
+EL nodo button para que al momento de presionarlo salga un mensaje programado, para hacer esto debemos unir el nodo botón que es en donde configuraremos el mensaje con el nodo Text que es una salida de texto que sirve para mostrar un campo de texto en la interfaz.
+
+Seguido de esto uniremos al nodo slider con los demás nodos, para que este pueda controlar la acciones de los otros. El nodo gauge es un indicador del tablero de modo grafico en el configuremos en rango que será de 0 a 200, del mismo modo el nodo chart nos devolverá una grafica de tipo barra con el mismo rango ya definido. El nodo Dropdown nos desplegara un cuadro con tres opciones diferentes programables, y el nodo Colour picker nos ayudara a seleccionar un color para nuestro widget.Todos estos nodos están enlazados al nodo principal slider que es un deslizador controlado por el usuario. 
+
+Por ultimo utilizaremos el nodo debug para controlar la ejecucion del programa.
+![](Imagenes/HomeSECOND.png)
+![](Imagenes/Home.Sec.png)
 ### 8. CONCLUSIONES
 
 

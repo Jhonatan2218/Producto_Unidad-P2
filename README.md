@@ -93,6 +93,30 @@ Primero debemos tener en cuenta la creación de un grupo, para la interfaz princ
 Home First: para la interfaz a la izquierda   Home Second: para la interfaz en medio.    Home Third: para la interfaz a la derecha.
 
 ![](Imagenes/Group.jpeg)
+### Home First
+
+### Nodos Utilizados
+
+Button : Agrega un botón a la interfaz del usuario el ícono se puede configurar usando los íconos Material,también se puede configurar el color y el color de fondo.
+
+Slider :Un control deslizante horizontal simple, con un tamaño de paso variable.
+
+Gauge :Este nodo es un tipo de indicador en el tablero,tiene 4 modos: estándar (indicador simple), donut (360 ° completo), brújula y onda.
+
+Numeric :Un widget de entrada numérico con botones arriba / abajo.
+
+Text :Text es una salida de texto que sirve para mostrar un campo de texto no editable en la interfaz.
+
+Switch: El nodo Switch permite enrutar los mensajes a diferentes ramas de un flujo mediante la evaluación de un conjunto de reglas para cada mensaje.
+
+Dropdown :Un widget de selección desplegable,agrega un cuadro de varias opciones a la interfaz del usuario.
+
+Los nodos Botton los utilizamos para mostrar en la interfaz de usuario cada uno de ellos, para poder identificarlos en la parte de la etiqueta le colocamos el nombre con el cual queremos que se muestre en la interfaz final.
+
+El nodo slider es un control deslizable manipulable por el usuario, el rango lo podemos modificar a nuestras necesidades, para poder ver de una manera mas visual el comportamiento del mismo, añadimos el nodo Gauge que es un indicador visual, los conectamos para que nos muestre la salida del nodo slider, el nodo numérico  nos ayudara también a modificar el valor de gauge solo que en vez de utilizar el slider ocuparemos flechas para subir o bajar, dependiendo de este número el nodo Text de salida lo verá reflejado e imprimirá cada número seleccionado.
+Para agregar un interruptor a la interfaz del usuario ocuparemos el nodo  swich este nos devolverá dos estados, el nodo dropdown lo ocuparemos para desplegar un cuadro de opciones a la interfaz del usuario.
+El nodo dropdown no esta conectado a otro nodo al igual que el nodo swich, ya que al pertenece al nodo Home Firts se imprimirán en la columna correspondiente. 
+
 
 ### 8. CONCLUSIONES
 

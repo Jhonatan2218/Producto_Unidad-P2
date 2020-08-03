@@ -155,6 +155,50 @@ Ocuparemos solo dos nodos el Slider y chart, el nodo slider tiene un control des
 ![](Imagenes/Resultado.png).
 
 #### 7.3. Calculadora científica con puertos GPIO
+##### 7.3.1. Importación de librerías
+![](Imagenes/Importar.png)
+
+La línea 2 será la importación de los puertos GPIO de la Raspberry.
+
+La línea 3 línea será la importación de la librería math la cual nos proporcionará las funciones matemáticas que necesitamos.
+
+La línea 4 será el diseño en el cual se mostrará los puertos GPIO de la Raspberry.
+
+##### 7.3.2. Creación de clase
+![](Imagenes/Clase.png)
+
+Se crea la clase con sus respectivos atributos.
+
+##### 7.3.3. Constructor
+![](Imagenes/Constructor.png)
+
+Definiremos las funciones con las cuales va a contar nuestra calculadora.
+
+##### 7.3.4. Menú
+![](Imagenes/Menu.png)
+
+Mostraremos una guía para que el usuario puede seleccionar la opción que desea hacer.
+
+##### 7.3.4. Funciones
+![](Imagenes/2numero.png)  ![](Imagenes/2numero2.png)
+
+Las funciones imprimir y operar serán para operaciones los cuales requieran el ingreso de dos números.
+
+![](Imagenes/1numero.png)  ![](Imagenes/1numero2.png)
+
+Las funciones imprimir2 y operar2 serán para operaciones los cuales requieran el ingreso de un solo número.
+
+![](Imagenes/sinnumero.png)  
+
+Las funciones imprimir3 y operar3 serán para operaciones los cuales no requieran de ingreso de números como es el caso al observar el resultado de “e” y de “pi”.
+
+![](Imagenes/Funcion%20Principal.png)  
+
+Cuenta con la llamada a la clase, para poder usar todos los objetos hay presentes.
+Una estructura de control while la cual permite que no muestre nada mientras no se seleccione un pin y varias estructuras if las cuales al detectar que un puerto ha sido seleccionado ejecutara o llamara a estrictos objetos que son fundamentales para su funcionamiento y una vez acabe de realizarlos termine.
+
+##### 7.3.5. Resultados
+
 
 
 ### 8. CONCLUSIONES

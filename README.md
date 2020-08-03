@@ -62,18 +62,18 @@ El monitoreo remoto permite una mayor flexibilidad y accesibilidad tanto para lo
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 
-### 7.1 Interfaz grafica HMI NODE-RED
+#### 7.1. Interfaz grafica HMI NODE-RED
 
 El siguiente ejemplo consiste en elaborar una interfaz Grafica HMI en la plataforma FRED.
 
-### 7.1.1 Desarrollo de la interfaz HMI
+##### 7.1.1. Desarrollo de la interfaz HMI
 Primero debemos tener en cuenta la creación de un grupo, para la interfaz principal, en este caso vamos a nombre Home y para que la interfaz elaborada se construya en una solo columna, dividimos este mismo grupo en tres enlazados con el principal.
 Home First: para la interfaz a la izquierda   Home Second: para la interfaz en medio.    Home Third: para la interfaz a la derecha.
 
 ![](Imagenes/Group.jpeg)
-### 7.1.2 Home First
+##### 7.1.2. Home First
 
-### Nodos Utilizados
+##### Nodos Utilizados
 
 Button : Agrega un botón a la interfaz del usuario el ícono se puede configurar usando los íconos Material,también se puede configurar el color y el color de fondo.
 
@@ -89,7 +89,7 @@ Switch: El nodo Switch permite enrutar los mensajes a diferentes ramas de un flu
 
 Dropdown :Un widget de selección desplegable,agrega un cuadro de varias opciones a la interfaz del usuario.
 
-### Explicación.
+##### Explicación.
 
 Los nodos Botton los utilizamos para mostrar en la interfaz de usuario cada uno de ellos, para poder identificarlos en la parte de la etiqueta le colocamos el nombre con el cual queremos que se muestre en la interfaz final.
 
@@ -101,9 +101,9 @@ El nodo dropdown no esta conectado a otro nodo al igual que el nodo swich, ya qu
 ![](Imagenes/HOmeFIrst.png)
 ![](Imagenes/HomeF.png)
 
-### 7.1.3 Home Second
+##### 7.1.3. Home Second
 
-### Nodos Utilizados
+##### Nodos Utilizados
 
 Button : Agrega un botón a la interfaz del usuario el ícono se puede configurar usando los íconos Material,también se puede configurar el color y el color de fondo.
 
@@ -121,7 +121,7 @@ Colour picker : Selector de color para un widget.
 
 Gauge :Este nodo es un tipo de indicador en el tablero,tiene 4 modos: estándar (indicador simple), donut (360 ° completo), brújula y onda.
 
-### Explicación 
+##### Explicación 
 
 Para esta interfaz ocuparemos el grupo Home Second porque necesitamos que esta interfaz se coloque al lado derecho de la interfaz First
 
@@ -134,15 +134,15 @@ Por ultimo utilizaremos el nodo debug para controlar la ejecucion del programa.
 ![](Imagenes/HomeSECOND.png).
 ![](Imagenes/Home.Sec.png).
 
-### 7.1.4 Home Third
+##### 7.1.4. Home Third
 
-### Nodos Utilizados.
+##### Nodos Utilizados.
 
 Slider :Un control deslizante horizontal simple, con un tamaño de paso variable.
 
 Chart : Tiene modos de línea, barra y gráfico circular,podemos configurar el rango que nesesitamos.
 
-### 7.2 Explicación 
+##### 7.2. Explicación 
 Para esta ultima interfaz ocuparemos el grupo Home third para que esta se ubique en una nueva columna así tendremos todas las interfaces en una distribución requerida.
 
 Ocuparemos solo dos nodos el Slider y chart, el nodo slider tiene un control deslizante horizontal simple, esta nos servirá para controlar los nodos chart que están conectados a la slider principal. Los tres nodos chart hacen lo mismo, representan la información trasmitida por la slider en forma visual, cada uno de ellos de diferente manera y en un rango igual al del slider que es de 0 min a 200 max.
@@ -150,9 +150,12 @@ Ocuparemos solo dos nodos el Slider y chart, el nodo slider tiene un control des
 ![](Imagenes/HomeThird.png).
 ![](Imagenes/HomeThi.png).
 
-### Resultados
+#### Resultados
 
 ![](Imagenes/Resultado.png).
+
+#### 7.3. Calculadora científica con puertos GPIO
+
 
 ### 8. CONCLUSIONES
 
@@ -161,11 +164,15 @@ Ocuparemos solo dos nodos el Slider y chart, el nodo slider tiene un control des
 
 
 ### 10. CRONOGRAMA
-
+![](Imagenes/Calendario.png)
 
 ### 11. BIBLIOGRAFÍA
 
 
 ### 12. ANEXOS
 
-#### 12.1. Manual de Usuario
+#### 12.1. Manual de Usuario Freed
+
+
+#### 12.2. Manual de Usuario Creat With Code
+

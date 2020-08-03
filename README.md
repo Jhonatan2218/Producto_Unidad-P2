@@ -198,14 +198,17 @@ Cuenta con la llamada a la clase, para poder usar todos los objetos hay presente
 Una estructura de control while la cual permite que no muestre nada mientras no se seleccione un pin y varias estructuras if las cuales al detectar que un puerto ha sido seleccionado ejecutara o llamara a estrictos objetos que son fundamentales para su funcionamiento y una vez acabe de realizarlos termine.
 
 ##### 7.3.5. Resultados
-
-
+![](Imagenes/Resultados.png)
 
 ### 8. CONCLUSIONES
+•	Node-Red te permite realizar varias interfaces HMI y una vez se domine esta forma de programación visual será podrá realizar granes ejemplos.
 
+•	La página de Create With Code te permite practicar el lenguaje de programación Python sin la necesidad de descargar algún programa, además te permite simular 
 
 ### 9. RECOMENDACIONES
+•	Consultar a fondo cada nodo utilizado en Node-Red para poder sacarle el máximo provecho a dicho nodo.
 
+•	En el sitio web de la pagina Create With Code encontraras varios ejemplos que pueden ser de mucha ayuda.
 
 ### 10. CRONOGRAMA
 ![](Imagenes/Calendario.png)
@@ -216,7 +219,7 @@ Una estructura de control while la cual permite que no muestre nada mientras no 
 ### 12. ANEXOS
 
 #### 12.1. Manual de Usuario Freed
-
+![](Anexos/FRED-Front-MU.png)
 
 #### 12.2. Manual de Usuario Creat With Code
-
+![](Anexos/Manual%20de%20Usuario-Withcode.jpg)

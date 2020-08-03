@@ -58,7 +58,10 @@ El monitoreo remoto permite una mayor flexibilidad y accesibilidad tanto para lo
 ![](Imagenes/FRED-Front-End-for-Node-RED%20(1).png).
 
 ### 6. MAPA DE VARIABLES
+#### 6.1. Python
+![](Imagenes/Mapa%20de%20variables-Python1.png)
 
+![](Imagenes/Mapa%20de%20variables-Python2.png)
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 

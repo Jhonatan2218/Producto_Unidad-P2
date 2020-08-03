@@ -1,0 +1,193 @@
+#Importar modulos
+import RPi.GPIO as GPIO
+import math
+x=1
+GPIO.setmode(GPIO.BOARD)
+#clase
+class Calculadora:
+#atributos de clase
+  numero1=0
+  numero2=0
+  
+#Constructor
+  def __init__(self,numero1,numero2):
+    self.numero1=numero1
+    self.numero2=numero2
+  def sumar(self,numero1,numero2):
+    return (numero1+numero2)
+  def restar(self,numero1,numero2):
+    return(numero1-numero2)
+  def multiplicar(self,numero1,numero2):
+    return(numero1*numero2)
+  def dividir(self,numero1,numero2):
+    return(numero1/numero2)
+  def factorial(self,numero1):
+    return(math.factorial(numero1))
+  def raiz(self,numero1,numero2):
+    return(math.pow(numero1,(1/numero2)))
+  def pote(self,numero1,numero2):
+    return(math.pow(numero1,numero2))
+  def sin(self,numero1):
+    return(math.sin(math.radians(num1)))
+  def asin(self,numero1):
+    return(math.asin(math.radians(num1)))
+  def sinh(self,numero1):
+    return(math.sinh(num1))
+  def asinh(self,numero1):
+    return(math.asinh(num1))
+  def cos(self,numero1):
+    return(math.cos(math.radians(num1)))
+  def acos(self,numero1):
+    return(math.acos(math.radians(num1)))
+  def cosh(self,numero1):
+    return(math.cosh(num1))
+  def acosh(self,numero1):
+    return(math.acosh(num1))
+  def tan(self,numero1):
+    return(math.tan(math.radians(num1)))
+  def atan(self,numero1):
+    return(math.atan(math.radians(num1)))
+  def tanh(self,numero1):
+    return(math.tanh(num1))
+  def atanh(self,numero1):
+    return(math.atanh(num1))
+  def e(self):
+    return(math.e)
+  def pi(self):
+    return(math.pi)
+  
+  def menu(self):
+    print("MENU")
+    print("3)Suma      5)Resta      7)Multiplicación     8)Dividisión")
+    print("10)Sin      11)Asin      12)Sinh              22)Asinh")
+    print("23)Cos      24)Acos      26)Cosh              27)Acosh")
+    print("28)Tan      29)Atan      31)Tanh              32)Atanh")
+    print("13)Raiz     15)Potencia  16)Log               18)Factorial")
+    print("19)e        21)Pi")
+    print("\nSelecciones un pin:")
+  def leer(self,mensaje):
+    print(mensaje)
+    men1=int(input())
+    return men1
+  
+  def imprimir(self,num1,num2,resultado):
+    if GPIO.input(3) == GPIO.HIGH:
+      print(num1,"+",num2,"=",resultado)
+    elif GPIO.input(5) == GPIO.HIGH:
+      print(num1,"-",num2,"=",resultado)
+    elif GPIO.input(7) == GPIO.HIGH:
+      print(num1,"*",num2,"=",resultado)
+    elif GPIO.input(8) == GPIO.HIGH:
+      print(num1,"/",num2,"=",resultado)
+    elif GPIO.input(13) == GPIO.HIGH:
+      print("raiz",num2,"de",num1,"=",resultado)
+    elif GPIO.input(15) == GPIO.HIGH:
+      print(num1,"^",num2,"=",resultado)
+      
+  def imprimir2(self,num1,resultado):
+    if GPIO.input(18) == GPIO.HIGH:
+      print(num1,"! = ",resultado)
+    elif GPIO.input(10) == GPIO.HIGH:
+      print("El Sin de", num1,"=",resultado)
+    elif GPIO.input(11) == GPIO.HIGH:
+      print("El Asin de", num1,"=",resultado)
+    elif GPIO.input(12) == GPIO.HIGH:
+      print("El Sinh de", num1,"=",resultado)
+    elif GPIO.input(22) == GPIO.HIGH:
+      print("El Asinh de", num1,"=",resultado)
+    elif GPIO.input(23) == GPIO.HIGH:
+      print("El Cos de", num1,"=",resultado)
+    elif GPIO.input(24) == GPIO.HIGH:
+      print("El Acos de", num1,"=",resultado)
+    elif GPIO.input(26) == GPIO.HIGH:
+      print("El Cosh de", num1,"=",resultado)
+    elif GPIO.input(27) == GPIO.HIGH:
+      print("El Acosh de", num1,"=",resultado)
+    elif GPIO.input(28) == GPIO.HIGH:
+      print("El Tan de", num1,"=",resultado)
+    elif GPIO.input(29) == GPIO.HIGH:
+      print("El Atan de", num1,"=",resultado)
+    elif GPIO.input(31) == GPIO.HIGH:
+      print("El Tanh de", num1,"=",resultado)
+    elif GPIO.input(32) == GPIO.HIGH:
+      print("El Atanh de", num1,"=",resultado)
+    elif GPIO.input(18) == GPIO.HIGH:
+      print(num1,"! = ",resultado)
+      
+  def imprimir3(self,resultado):
+    if GPIO.input(19) == GPIO.HIGH:
+      print("El valor de e =", resultado )
+    if GPIO.input(21) == GPIO.HIGH:
+      print("El valor de pi =", resultado )
+      
+  def operar3(self):
+    if GPIO.input(19) == GPIO.HIGH:
+      resultado=self.e()
+    if GPIO.input(21) == GPIO.HIGH:
+      resultado=self.pi()
+    return resultado
+      
+  def operar(self,num1,num2):
+    resultado=0
+    if GPIO.input(3) == GPIO.HIGH:
+      resultado=self.sumar(num1,num2)
+    elif GPIO.input(5) == GPIO.HIGH:
+      resultado=self.restar(num1,num2)
+    elif GPIO.input(7) == GPIO.HIGH:
+      resultado=self.multiplicar (num1,num2)
+    elif GPIO.input(8) == GPIO.HIGH:
+      resultado=self.dividir(num1,num2)
+    elif GPIO.input(13) == GPIO.HIGH:
+      resultado=self.raiz(num1,num2)
+    elif GPIO.input(15) == GPIO.HIGH:
+      resultado=self.pote(num1,num2)
+    return resultado
+  
+  def operar2(self,num1):
+    if GPIO.input(10) == GPIO.HIGH:
+      resultado=self.sin(num1)
+    elif GPIO.input(11) == GPIO.HIGH:
+      resultado=self.asin(num1)
+    elif GPIO.input(12) == GPIO.HIGH:
+      resultado=self.sinh(num1)
+    elif GPIO.input(22) == GPIO.HIGH:
+      resultado=self.asinh(num1)
+    elif GPIO.input(23) == GPIO.HIGH:
+      resultado=self.cos(num1)
+    elif GPIO.input(24) == GPIO.HIGH:
+      resultado=self.acos(num1)
+    elif GPIO.input(26) == GPIO.HIGH:
+      resultado=self.cosh(num1)
+    elif GPIO.input(27) == GPIO.HIGH:
+      resultado=self.acosh(num1)
+    elif GPIO.input(28) == GPIO.HIGH:
+      resultado=self.tan(num1)
+    elif GPIO.input(29) == GPIO.HIGH:
+      resultado=self.atan(num1)
+    elif GPIO.input(31) == GPIO.HIGH:
+      resultado=self.tanh(num1)
+    elif GPIO.input(32) == GPIO.HIGH:
+      resultado=self.atanh(num1)
+    elif GPIO.input(18) == GPIO.HIGH:
+      resultado=self.factorial(num1)
+    return resultado
+
+#Funcion principal
+calcu=Calculadora(0,0)
+calcu.menu()
+while(x != 0):
+  if (GPIO.input(3) == GPIO.HIGH or GPIO.input(5) == GPIO.HIGH or GPIO.input(7) == GPIO.HIGH or GPIO.input(8) == GPIO.HIGH or GPIO.input(13) == GPIO.HIGH or GPIO.input(15) == GPIO.HIGH):  
+    num1=calcu.leer("Ingresar Numero1")
+    num2=calcu.leer("Ingresar Numero2")
+    resultado=calcu.operar(num1,num2)
+    calcu.imprimir(num1,num2,resultado)
+    x=0
+  elif(GPIO.input(19) == GPIO.HIGH or GPIO.input(21) == GPIO.HIGH):
+    resultado=calcu.operar3()
+    calcu.imprimir3(resultado)
+    x=0
+  elif(GPIO.input(10) == GPIO.HIGH or GPIO.input(11) == GPIO.HIGH or GPIO.input(12) == GPIO.HIGH or GPIO.input(22) == GPIO.HIGH or GPIO.input(23) == GPIO.HIGH or GPIO.input(24) == GPIO.HIGH or GPIO.input(26) == GPIO.HIGH or GPIO.input(27) == GPIO.HIGH or GPIO.input(28) == GPIO.HIGH or GPIO.input(29) == GPIO.HIGH or GPIO.input(31) == GPIO.HIGH or GPIO.input(32) == GPIO.HIGH or GPIO.input(18) == GPIO.HIGH) :
+    num1=calcu.leer("Ingresar Numero1")
+    resultado=calcu.operar2(num1)
+    calcu.imprimir2(num1,resultado)
+    x=0

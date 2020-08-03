@@ -180,7 +180,7 @@ Definiremos las funciones con las cuales va a contar nuestra calculadora.
 Mostraremos una guía para que el usuario puede seleccionar la opción que desea hacer.
 
 ##### 7.3.4. Funciones
-![](Imagenes/2numero.png)  ![](Imagenes/2numero2.png)
+![](Imagenes/2numeros.png)  ![](Imagenes/2numeros2.png)
 
 Las funciones imprimir y operar serán para operaciones los cuales requieran el ingreso de dos números.
 

@@ -224,6 +224,15 @@ Una estructura de control while la cual permite que no muestre nada mientras no 
 ### 11. BIBLIOGRAFÍA
 
 Guido van Rossum. The Python Programming Language. http://python.org
+Gina Mejía, F. L. (11 de Mayo de 2020). Dashboard for Evaluating the Quality of Open Learning Courses. Obtenido de sustainability: https://www.mdpi.com/journal/sustainability
+
+Ivet Challenger-Pérez, Y. D.-R.-G. (junio de 2014). El lenguaje de programación Python. (Universidad de Holguín “Oscar Lucero Moya”) Recuperado el 25 de julio de 2020, de https://www.redalyc.org/pdf/1815/181531232001.pdf
+
+Michael Blackstock, R. L. (octubre de 2014). Toward a Distributed Data Flow Platform for the Web of Things (Distributed Node-RED). (University of British Columbia) Recuperado el 22 de julio de 2020, de https://www.researchgate.net/publication/300757723_Toward_a_Distributed_Data_Flow_Platform_for_the_Web_of_Things_Distributed_Node-RED
+
+PDAControl. (06 de Junio de 2017). FRED front-end Node-RED en la Nube. Obtenido de PDAControl: http://pdacontroles.com/fred-front-end-node-red-en-la-nube/
+
+
 
 ### 12. ANEXOS
 

@@ -58,7 +58,10 @@ El monitoreo remoto permite una mayor flexibilidad y accesibilidad tanto para lo
 ![](Imagenes/FRED-Front-End-for-Node-RED%20(1).png).
 
 ### 6. MAPA DE VARIABLES
+#### 6.1. Python
+![](Imagenes/Mapa%20de%20variables-Python1.png)
 
+![](Imagenes/Mapa%20de%20variables-Python2.png)
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 
@@ -203,17 +206,32 @@ Una estructura de control while la cual permite que no muestre nada mientras no 
 ### 8. CONCLUSIONES
 •	Node-Red te permite realizar varias interfaces HMI y una vez se domine esta forma de programación visual será podrá realizar granes ejemplos.
 
-•	La página de Create With Code te permite practicar el lenguaje de programación Python sin la necesidad de descargar algún programa, además te permite simular 
+•	La página de Create With Code te permite practicar el lenguaje de programación Python sin la necesidad de descargar algún programa, además te permite simular.
+
+•	La combinación node red-raspbeery pi destaca en diversos proyectos y aplicaciones que permiten a los adentrarse usuarios y explorar temas de nueva tecnología como IoT, computación en la nube, robotica y general aspectos un poco mas avanzados de ciencias de la computación y electrónica. 
 
 ### 9. RECOMENDACIONES
 •	Consultar a fondo cada nodo utilizado en Node-Red para poder sacarle el máximo provecho a dicho nodo.
 
 •	En el sitio web de la pagina Create With Code encontraras varios ejemplos que pueden ser de mucha ayuda.
 
+•	Asegurarse de tener como mínimo un conocimiento básico en programación antes de aventurarse a implementar un proyecto usando alguna de estas plataformas o dispositivos porque de lo contrario se puede entorpecer el proceso de desarrollo del mismo.
+
+
 ### 10. CRONOGRAMA
 ![](Imagenes/Calendario.png)
 
 ### 11. BIBLIOGRAFÍA
+
+Guido van Rossum. The Python Programming Language. http://python.org
+Gina Mejía, F. L. (11 de Mayo de 2020). Dashboard for Evaluating the Quality of Open Learning Courses. Obtenido de sustainability: https://www.mdpi.com/journal/sustainability
+
+Ivet Challenger-Pérez, Y. D.-R.-G. (junio de 2014). El lenguaje de programación Python. (Universidad de Holguín “Oscar Lucero Moya”) Recuperado el 25 de julio de 2020, de https://www.redalyc.org/pdf/1815/181531232001.pdf
+
+Michael Blackstock, R. L. (octubre de 2014). Toward a Distributed Data Flow Platform for the Web of Things (Distributed Node-RED). (University of British Columbia) Recuperado el 22 de julio de 2020, de https://www.researchgate.net/publication/300757723_Toward_a_Distributed_Data_Flow_Platform_for_the_Web_of_Things_Distributed_Node-RED
+
+PDAControl. (06 de Junio de 2017). FRED front-end Node-RED en la Nube. Obtenido de PDAControl: http://pdacontroles.com/fred-front-end-node-red-en-la-nube/
+
 
 
 ### 12. ANEXOS

@@ -206,12 +206,17 @@ Una estructura de control while la cual permite que no muestre nada mientras no 
 ### 8. CONCLUSIONES
 •	Node-Red te permite realizar varias interfaces HMI y una vez se domine esta forma de programación visual será podrá realizar granes ejemplos.
 
-•	La página de Create With Code te permite practicar el lenguaje de programación Python sin la necesidad de descargar algún programa, además te permite simular 
+•	La página de Create With Code te permite practicar el lenguaje de programación Python sin la necesidad de descargar algún programa, además te permite simular.
+
+•	La combinación node red-raspbeery pi destaca en diversos proyectos y aplicaciones que permiten a los adentrarse usuarios y explorar temas de nueva tecnología como IoT, computación en la nube, robotica y general aspectos un poco mas avanzados de ciencias de la computación y electrónica. 
 
 ### 9. RECOMENDACIONES
 •	Consultar a fondo cada nodo utilizado en Node-Red para poder sacarle el máximo provecho a dicho nodo.
 
 •	En el sitio web de la pagina Create With Code encontraras varios ejemplos que pueden ser de mucha ayuda.
+
+•	Asegurarse de tener como mínimo un conocimiento básico en programación antes de aventurarse a implementar un proyecto usando alguna de estas plataformas o dispositivos porque de lo contrario se puede entorpecer el proceso de desarrollo del mismo.
+
 
 ### 10. CRONOGRAMA
 ![](Imagenes/Calendario.png)

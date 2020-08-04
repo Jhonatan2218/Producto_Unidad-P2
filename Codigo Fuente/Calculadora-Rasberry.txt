@@ -28,29 +28,33 @@ class Calculadora:
   def pote(self,numero1,numero2):
     return(math.pow(numero1,numero2))
   def sin(self,numero1):
-    return(math.sin(math.radians(num1)))
-  def asin(self,numero1):
-    return(math.asin(math.radians(num1)))
+    return(math.sin(math.radians(numero1)))
+  def Asin(self,numero1):
+    return(math.asin(numero1))
   def sinh(self,numero1):
-    return(math.sinh(num1))
+    return(math.sinh(numero1))
   def asinh(self,numero1):
-    return(math.asinh(num1))
-  def cos(self,numero1):
-    return(math.cos(math.radians(num1)))
+    return(math.asinh(numero1))
+  def cose(self,numero1):
+    return(math.cos(numero1))
   def acos(self,numero1):
-    return(math.acos(math.radians(num1)))
+    return(math.acos(numero1))
   def cosh(self,numero1):
-    return(math.cosh(num1))
+    return(math.cosh(numero1))
   def acosh(self,numero1):
-    return(math.acosh(num1))
+    return(math.acosh(numero1))
   def tan(self,numero1):
-    return(math.tan(math.radians(num1)))
+    return(math.tan(numero1))
   def atan(self,numero1):
-    return(math.atan(math.radians(num1)))
+    return(math.atan(numero1))
   def tanh(self,numero1):
-    return(math.tanh(num1))
+    return(math.tanh(numero1))
   def atanh(self,numero1):
-    return(math.atanh(num1))
+    return(math.atanh(numero1))
+  def log(self,numero1,numero2):
+    return(math.log(numero1,numero2))
+  def ln(self,numero1):
+    return(math.log(numero1))
   def e(self):
     return(math.e)
   def pi(self):
@@ -63,11 +67,11 @@ class Calculadora:
     print("23)Cos      24)Acos      26)Cosh              27)Acosh")
     print("28)Tan      29)Atan      31)Tanh              32)Atanh")
     print("13)Raiz     15)Potencia  16)Log               18)Factorial")
-    print("19)e        21)Pi")
+    print("19)e        21)Pi        33)Ln")
     print("\nSelecciones un pin:")
   def leer(self,mensaje):
     print(mensaje)
-    men1=int(input())
+    men1=float(input())
     return men1
   
   def imprimir(self,num1,num2,resultado):
@@ -83,6 +87,8 @@ class Calculadora:
       print("raiz",num2,"de",num1,"=",resultado)
     elif GPIO.input(15) == GPIO.HIGH:
       print(num1,"^",num2,"=",resultado)
+    elif GPIO.input(16) == GPIO.HIGH:
+      print("log de",num1,"en base",num2,"=",resultado)
       
   def imprimir2(self,num1,resultado):
     if GPIO.input(18) == GPIO.HIGH:
@@ -113,6 +119,8 @@ class Calculadora:
       print("El Atanh de", num1,"=",resultado)
     elif GPIO.input(18) == GPIO.HIGH:
       print(num1,"! = ",resultado)
+    elif GPIO.input(33) == GPIO.HIGH:
+      print("ln de",num1,"=",resultado)
       
   def imprimir3(self,resultado):
     if GPIO.input(19) == GPIO.HIGH:
@@ -141,19 +149,21 @@ class Calculadora:
       resultado=self.raiz(num1,num2)
     elif GPIO.input(15) == GPIO.HIGH:
       resultado=self.pote(num1,num2)
+    elif GPIO.input(16) == GPIO.HIGH:
+      resultado=self.log(num1,num2)
     return resultado
   
   def operar2(self,num1):
     if GPIO.input(10) == GPIO.HIGH:
       resultado=self.sin(num1)
     elif GPIO.input(11) == GPIO.HIGH:
-      resultado=self.asin(num1)
+      resultado=self.Asin(num1)
     elif GPIO.input(12) == GPIO.HIGH:
       resultado=self.sinh(num1)
     elif GPIO.input(22) == GPIO.HIGH:
       resultado=self.asinh(num1)
     elif GPIO.input(23) == GPIO.HIGH:
-      resultado=self.cos(num1)
+      resultado=self.cose(num1)
     elif GPIO.input(24) == GPIO.HIGH:
       resultado=self.acos(num1)
     elif GPIO.input(26) == GPIO.HIGH:
@@ -170,13 +180,15 @@ class Calculadora:
       resultado=self.atanh(num1)
     elif GPIO.input(18) == GPIO.HIGH:
       resultado=self.factorial(num1)
+    elif GPIO.input(33) == GPIO.HIGH:
+      resultado=self.ln(num1)
     return resultado
 
 #Funcion principal
-calcu=Calculadora(0,0)
+calcu=Calculadora(0.0,0.0)
 calcu.menu()
 while(x != 0):
-  if (GPIO.input(3) == GPIO.HIGH or GPIO.input(5) == GPIO.HIGH or GPIO.input(7) == GPIO.HIGH or GPIO.input(8) == GPIO.HIGH or GPIO.input(13) == GPIO.HIGH or GPIO.input(15) == GPIO.HIGH):  
+  if (GPIO.input(3) == GPIO.HIGH or GPIO.input(5) == GPIO.HIGH or GPIO.input(7) == GPIO.HIGH or GPIO.input(8) == GPIO.HIGH or GPIO.input(13) == GPIO.HIGH or GPIO.input(15) == GPIO.HIGH or GPIO.input(16) == GPIO.HIGH):  
     num1=calcu.leer("Ingresar Numero1")
     num2=calcu.leer("Ingresar Numero2")
     resultado=calcu.operar(num1,num2)
@@ -186,7 +198,7 @@ while(x != 0):
     resultado=calcu.operar3()
     calcu.imprimir3(resultado)
     x=0
-  elif(GPIO.input(10) == GPIO.HIGH or GPIO.input(11) == GPIO.HIGH or GPIO.input(12) == GPIO.HIGH or GPIO.input(22) == GPIO.HIGH or GPIO.input(23) == GPIO.HIGH or GPIO.input(24) == GPIO.HIGH or GPIO.input(26) == GPIO.HIGH or GPIO.input(27) == GPIO.HIGH or GPIO.input(28) == GPIO.HIGH or GPIO.input(29) == GPIO.HIGH or GPIO.input(31) == GPIO.HIGH or GPIO.input(32) == GPIO.HIGH or GPIO.input(18) == GPIO.HIGH) :
+  elif(GPIO.input(10) == GPIO.HIGH or GPIO.input(11) == GPIO.HIGH or GPIO.input(12) == GPIO.HIGH or GPIO.input(22) == GPIO.HIGH or GPIO.input(23) == GPIO.HIGH or GPIO.input(24) == GPIO.HIGH or GPIO.input(26) == GPIO.HIGH or GPIO.input(27) == GPIO.HIGH or GPIO.input(28) == GPIO.HIGH or GPIO.input(29) == GPIO.HIGH or GPIO.input(31) == GPIO.HIGH or GPIO.input(32) == GPIO.HIGH or GPIO.input(18) == GPIO.HIGH or GPIO.input(33) == GPIO.HIGH) :
     num1=calcu.leer("Ingresar Numero1")
     resultado=calcu.operar2(num1)
     calcu.imprimir2(num1,resultado)
